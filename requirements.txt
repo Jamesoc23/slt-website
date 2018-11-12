@@ -73,8 +73,6 @@ sklearn==0.0
 SpeechRecognition==3.8.1
 sqlparse==0.2.4
 style==1.1.0
-tensorflow==1.5.0
-tensorflow-tensorboard==1.5.0
 testpath==0.3.1
 tornado==4.5.2
 traitlets==4.3.2
