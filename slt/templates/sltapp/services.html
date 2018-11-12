@@ -1,0 +1,27 @@
+<section id="services">
+      <div class="container">
+            <div class="iso-box-section wow fadeInUp" data-wow-delay="1s">
+                  <h1>Services</h1>
+                  <div class="iso-box-wrapper">
+                        {% for service in services %}
+
+                        <div class="iso-box template branding col-md-4 col-sm-6">
+                              <div class="portfolio-thumb">
+                                    <img src="{{ service.image }}" class="img-responsive" alt="Portfolio">
+                                    <div class="portfolio-overlay">
+                                          <div class="portfolio-item">
+                                                <a href="single-project.html">
+                                                      <i class="fa fa-link"></i>
+                                                </a>
+                                                <h2> {{ service.title }} </h2>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+
+                        {% endfor %}
+
+                  </div>
+            </div>
+      </div>
+</section>

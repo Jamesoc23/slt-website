@@ -1,0 +1,50 @@
+<section id="contact">
+   <div class="container">
+      <div class="row">
+
+		<div class="wow fadeInUp col-md-3 col-sm-12"></div>
+		<div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="1.6s">
+			<h1>Get in touch</h1>
+			<div class="contact-form">
+				<form id="contact-form" method="post" action="#">
+					<input name="name" type="text" class="form-control" placeholder="Your Name" required>
+					<input name="email" type="email" class="form-control" placeholder="Your Email" required>
+					<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
+					<div class="contact-submit col-md-12 col-sm-12">
+						<input type="submit" class="form-control submit" value="Send a message">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="wow fadeInUp col-md-3 col-sm-12"></div>
+
+		<div class="clearfix"></div>
+
+			<div class="col-md-4 col-sm-6 col-md-offset-2">
+				<div class="wow fadeInUp media">
+					<div class="media-object pull-left">
+						<i class="fa fa-tablet"></i>
+					</div>
+					<div class="media-body">
+						<h3 class="media-heading">Phone</h3>
+						<p> {{ contactInfo.phone }} </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-sm-6">
+				<div class="wow fadeInUp media">
+					<div class="media-object pull-left">
+						<i class="fa fa-envelope"></i>
+					</div>
+					<div class="media-body">
+						<h3 class="media-heading">Email</h3>
+						<p> {{ contactInfo.email }} </p>
+					</div>
+				</div>
+			</div>
+
+      </div>
+   </div>
+</section>
+
